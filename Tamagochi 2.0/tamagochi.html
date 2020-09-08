@@ -1,0 +1,54 @@
+<html lang="es">
+	<head> 
+		 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+		<link href="tamagochi.css" rel="stylesheet" type="text/css">
+		
+	</head>
+
+	<body>
+		<div class="container"> 
+			<div class="row">
+				<h1 class="generalTitle"> Cuidadores de mascotas</h1>
+
+		    	<div class="containerHouseData">
+		    		<div id="houseData">
+	    				<div id="houseRefrigerator" class="refrigeratorValue"></div>
+	    				<div id="houseBall" class="ballValue"></div>
+	    				<div id="houseBed" class="bedValue"></div>
+	    				<div id="houseToys" class="toysValue"></div>
+	    				<div id="houseCouch" class="couchValue"></div>
+	  				</div>
+				</div>
+				
+				<div class="containerGameData">
+					<br> 
+					<img src="monstruo1.jpg" width="200" height="200">
+					<div id="PetsData">
+					<div id="petsName" class="petsNameValue"></div>
+					<div id="petLife">Vida: <span class="LifeValue"></span> </div>
+					<div id="petAge">Edad: <span class="AgeValue"></span> </div>
+					<div id="petHungry">Hambre: <span class="HungryValue"></span> </div>
+					<div id="petSleeping">Sueño: <span class="SleepingValue"></span> </div>
+					<div id="petBored">Diversion: <span class="BoredValue"></span></div>        
+			  </div>
+			  
+			  <div class="footer">
+					<div id="containerControls" class='col s12'>
+					<br>
+					<button class="btn controlActionButton" id="toys" onClick=playWhitToys();>Juguetes</button>
+					<button class="btn controlActionButton" id="sofa" onClick=breatherInSofa();>Sofá</button>
+					<button class="btn controlActionButton" id="bed" onClick=breatherInBed();>Cama</button>
+					<button class="btn controlActionButton" id="ball" onClick=playWhitBall();>Pelota</button>
+					<button class="btn controlActionButton" id="refrigerator" onClick=feedPet();>heladera</button>
+					</div>
+			  </div>
+			</div>
+		</div>
+		<script src="tamagochi.js"></script>
+	</body>
+
+
+</html>

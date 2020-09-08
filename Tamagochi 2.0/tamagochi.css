@@ -1,0 +1,25 @@
+#PetsData{
+    font-style: italic;
+    margin-top: 50px;
+    font-size: 16pt;
+    text-align: right;
+    float: right;
+    padding-right: 200px;
+}
+
+.containerGameData{
+    margin-left: 200px;
+     
+}
+
+.footer{
+   width: 100%;
+   margin-left: 70px;
+   margin-top: 50px;
+}
+
+.generalTitle{
+    text-align: center;
+    font-style: italic;
+    
+}
